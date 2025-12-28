@@ -6,7 +6,6 @@ using namespace std;
 int main()
 {
     cout << "Hello Git! \n";
-    cout << "My name is Yeremy";
-    cout << "Cambios modificados";
+    cout << "My name is Yeremy :)";
     return 0;
 }

@@ -1,2 +1,91 @@
-// ignora todo si le ponemos **
-**/.nombre_de_ruta
+# ===============================
+# GITIGNORE – GitCourse
+# ===============================
+
+
+# -------------------------------
+# IGNORAR TODO EN CUALQUIER NIVEL
+# -------------------------------
+
+# Ignora una ruta sin importar dónde esté
+**/.route_name
+
+
+# -------------------------------
+# USO DE ** (comodín recursivo)
+# -------------------------------
+
+# Ignora carpetas comunes en cualquier nivel
+**/bin
+**/obj
+**/build
+**/dist
+
+
+# -------------------------------
+# USO DE * (comodín simple)
+# -------------------------------
+
+# Ignora por extensión
+*.exe
+*.o
+*.obj
+*.log
+*.tmp
+
+
+# -------------------------------
+# ARCHIVOS ESPECÍFICOS
+# -------------------------------
+
+# Ignora archivos concretos
+config.local.json
+debug.txt
+
+
+# -------------------------------
+# CARPETAS COMPLETAS
+# -------------------------------
+
+# Ignora carpetas completas
+.vscode/
+.idea/
+node_modules/
+
+
+# -------------------------------
+# ARCHIVOS DEL SISTEMA
+# -------------------------------
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+# -------------------------------
+# EXCEPCIONES (!)
+# -------------------------------
+
+# Ignora todos los .log EXCEPTO este
+*.log
+!important.log
+
+
+# -------------------------------
+# C++ / COMPILACIÓN
+# -------------------------------
+
+# Ejecutables
+*.exe
+
+# Archivos intermedios
+*.pdb
+*.ilk
+*.out
+
+# Carpetas de compilación
+bin/
+build/
