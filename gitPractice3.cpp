@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     int edad; 
-    cout << "Versiono rama feature/practice";
+    cout << "Version rama feature/practice";
     system("pause>0");
     return 0;
 }
